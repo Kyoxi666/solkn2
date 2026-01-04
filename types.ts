@@ -31,11 +31,11 @@ export interface ServiceItem {
   icon: LucideIcon;
   partners?: Partner[];
   subServices?: string[];
-  approach?: {
+  approach: {
     description: string;
     items: [ServiceApproachItem, ServiceApproachItem, ServiceApproachItem];
   };
-  strategicFocus?: {
+  strategicFocus: {
     suffix: string; // e.g., "Future-Proofing"
     description: string;
     items: ServiceFocusItem[];
