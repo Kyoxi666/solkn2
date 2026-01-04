@@ -199,10 +199,10 @@ export const SERVICES: ServiceItem[] = [
     idealFor: 'Organizations handling sensitive data or facing regulatory compliance requirements.',
     icon: Shield,
     partners: [
-        { name: 'Fortinet', logoUrl: 'https://logo.clearbit.com/fortinet.com' },
-        { name: 'Palo Alto Networks', logoUrl: 'https://logo.clearbit.com/paloaltonetworks.com' },
-        { name: 'Zscaler', logoUrl: 'https://logo.clearbit.com/zscaler.com' },
-        { name: 'Proofpoint', logoUrl: 'https://logo.clearbit.com/proofpoint.com' }
+      { name: 'Fortinet', logoUrl: 'https://logo.clearbit.com/fortinet.com' },
+      { name: 'Palo Alto Networks', logoUrl: 'https://logo.clearbit.com/paloaltonetworks.com' },
+      { name: 'Zscaler', logoUrl: 'https://logo.clearbit.com/zscaler.com' },
+      { name: 'Proofpoint', logoUrl: 'https://logo.clearbit.com/proofpoint.com' }
     ],
     approach: {
       description: "Security is not a product; it's a process. We employ a defense-in-depth strategy that assumes breach attempts are inevitable and prepares your defenses accordingly.",
@@ -277,10 +277,10 @@ export const SERVICES: ServiceItem[] = [
     idealFor: 'Businesses looking to increase visibility, generate leads, and grow revenue online.',
     icon: TrendingUp,
     partners: [
-        { name: 'Google Ads', logoUrl: 'https://logo.clearbit.com/ads.google.com' },
-        { name: 'HubSpot', logoUrl: 'https://logo.clearbit.com/hubspot.com' },
-        { name: 'Meta', logoUrl: 'https://logo.clearbit.com/meta.com' },
-        { name: 'SEMrush', logoUrl: 'https://logo.clearbit.com/semrush.com' }
+      { name: 'Google Ads', logoUrl: 'https://logo.clearbit.com/ads.google.com' },
+      { name: 'HubSpot', logoUrl: 'https://logo.clearbit.com/hubspot.com' },
+      { name: 'Meta', logoUrl: 'https://logo.clearbit.com/meta.com' },
+      { name: 'SEMrush', logoUrl: 'https://logo.clearbit.com/semrush.com' }
     ],
     approach: {
       description: "We replace guesswork with data. Our growth methodology uses rapid experimentation to find the exact channels and messages that convert for your unique audience.",
@@ -355,10 +355,10 @@ export const SERVICES: ServiceItem[] = [
     idealFor: 'Forward-thinking businesses ready to gain a competitive edge.',
     icon: Cpu,
     partners: [
-        { name: 'OpenAI', logoUrl: 'https://logo.clearbit.com/openai.com' },
-        { name: 'TensorFlow', logoUrl: 'https://logo.clearbit.com/tensorflow.org' },
-        { name: 'IBM Watson', logoUrl: 'https://logo.clearbit.com/ibm.com' },
-        { name: 'Hugging Face', logoUrl: 'https://logo.clearbit.com/huggingface.co' }
+      { name: 'OpenAI', logoUrl: 'https://logo.clearbit.com/openai.com' },
+      { name: 'TensorFlow', logoUrl: 'https://logo.clearbit.com/tensorflow.org' },
+      { name: 'IBM Watson', logoUrl: 'https://logo.clearbit.com/ibm.com' },
+      { name: 'Hugging Face', logoUrl: 'https://logo.clearbit.com/huggingface.co' }
     ],
     approach: {
       description: "We demystify AI, turning hype into practical utility. Our approach ensures that your AI investment solves real business problems and delivers tangible ROI.",
@@ -404,7 +404,7 @@ export const SERVICES: ServiceItem[] = [
 export const CASE_STUDIES: CaseStudy[] = [
   {
     id: 'legal-firm-downtime',
-    title: 'Optogenetics-enabled discovery of integrated stress response modulators',
+    title: 'Secure Cloud Infrastructure for Legal Practice',
     industry: 'Legal Services',
     category: 'Publications',
     date: 'September 4, 2025',
@@ -415,7 +415,7 @@ export const CASE_STUDIES: CaseStudy[] = [
   },
   {
     id: 'retail-black-friday',
-    title: 'Blog: Scaling Computer Vision to Solve Aging',
+    title: 'Scaling Architecture for High-Volume Retail',
     industry: 'Retail',
     category: 'News',
     date: 'December 18, 2025',
@@ -426,7 +426,7 @@ export const CASE_STUDIES: CaseStudy[] = [
   },
   {
     id: 'manufacturing-ransomware',
-    title: 'Blog: Aging as an Engineering Problem',
+    title: 'Rapid Response to Industrial Cyber Threat',
     industry: 'Manufacturing',
     category: 'News',
     date: 'December 2, 2025',
@@ -437,7 +437,7 @@ export const CASE_STUDIES: CaseStudy[] = [
   },
   {
     id: 'healthcare-seo',
-    title: 'Inside Our Science: Nobel Laureate Sir David MacMillan on Our Collaboration',
+    title: 'Digital Visibility for Telemedicine Startup',
     industry: 'Healthcare Tech',
     category: 'News',
     date: 'November 21, 2025',
