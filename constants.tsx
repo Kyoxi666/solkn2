@@ -444,3 +444,10 @@ export const TEAM: TeamMember[] = [
   { name: 'Sarah Jenkins', role: 'Head of Strategy', image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=2000' },
   { name: 'David Okafor', role: 'Lead Security Architect', image: 'https://images.unsplash.com/photo-1531384441138-2736e62e0919?q=80&w=2000' },
 ];
+
+export const WHY_CHOOSE_ITEMS = [
+  { title: "Certified Excellence", desc: "Cyber Essentials Certified, JOSCAR Registered, and Good Business Charter Accredited." },
+  { title: "Global Expertise", desc: "Headquartered in Harrow, London, with operations in India—delivering round-the-clock support." },
+  { title: "Trusted Partnerships", desc: "We work with industry leaders: Fortinet, Palo Alto Networks, Microsoft Azure, AWS." },
+  { title: "Values-Driven", desc: "Committed to sustainability, equality, and ethical business practices." }
+];

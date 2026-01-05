@@ -60,4 +60,9 @@ export interface TeamMember {
   image: string;
 }
 
+export interface WhyChooseItem {
+  title: string;
+  desc: string;
+}
+
 export type ViewState = 'HOME' | 'SERVICES' | 'SERVICE_DETAIL' | 'CASE_STUDIES' | 'COMPANY' | 'CONTACT';
