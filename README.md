@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="public/logo.svg" alt="SOLKN Logo" width="220" />
+</p>
+
 # Solkn2
 
 A modern, responsive React + Vite application for Solkn Digital Brilliance.
