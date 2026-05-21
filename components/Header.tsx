@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { NAV_ITEMS } from '../constants';
 import { ViewState } from '../types';
-import Logo from './Logo';
 
 interface HeaderProps {
   onNavigate: (view: ViewState) => void;
@@ -28,10 +27,17 @@ const Header: React.FC<HeaderProps> = ({ onNavigate, currentView }) => {
 
           {/* Logo */}
           <div
-            className="cursor-pointer z-50 flex items-center"
+            className="cursor-pointer z-50 flex items-center gap-3"
             onClick={() => onNavigate('HOME')}
           >
-            <Logo className="h-8 w-auto text-solkn-dark" />
+            <img 
+              src="/solknLogonoback.png" 
+              alt="SOLKN" 
+              className="h-8 w-auto filter drop-shadow-[0_2px_4px_rgba(0,0,0,0.15)]"
+            />
+            <span className="text-2xl font-extrabold tracking-tight text-solkn-dark font-sans">
+              SOLKN
+            </span>
           </div>
 
           {/* Desktop Nav */}
