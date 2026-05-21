@@ -21,9 +21,9 @@ const Logo: React.FC<LogoProps> = ({ className = "h-8 w-auto" }) => {
       */}
       <g transform="translate(0, 2.5) scale(0.09)">
         <path 
-            fill="none" 
+            fill="currentColor" 
             stroke="currentColor" 
-            strokeWidth="12" 
+            strokeWidth="15" 
             strokeLinecap="round" 
             strokeLinejoin="round" 
             d="M486.4,107.1c-33.2-18.6-69.9-32.4-108.2-40.8c-95.4-20.9-195.1-4.5-280.6,46.1C66.7,130.7,36.8,157.8,11,188.4
